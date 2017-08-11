@@ -1,0 +1,13 @@
+{
+    "name": "angular-d3-directive",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+      "angular": "1.2.x",
+      "angular-route": "1.2.x",
+      "bootstrap": "~3.2.x",
+      "jquery": "~2.1.0",
+      "d3": "4.10.0"
+    }
+  }
+  

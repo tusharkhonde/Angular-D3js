@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <link scr="styles/index.css"/>
+    <script src="bower_components/d3/d3.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+
+</head>
+<body>
+
+    <div ng-app="myApp">
+        <div ng-controller="mainCtrl" class="container">
+            <d3chart height="height" width="width" data="data" hovered="hovered(args)"></d3chart>
+            <d3chartfooter></d3chartfooter>
+        </div>
+    </div>
+
+<script src="javascript/App.js"></script>
+<script src="javascript/MainDirective.js"></script>
+
+</body>
+</html>

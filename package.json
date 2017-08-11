@@ -1,0 +1,14 @@
+{
+    "name": "angular-d3-directive",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "postinstall": "bower install",
+        "prestart": "npm install",
+        "start": "http-server -a localhost -p 8000 -o"
+    },
+    "dependencies": {
+      "http-server": "0.10.0"
+    }
+  }
+  

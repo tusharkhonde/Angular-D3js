@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+
+body {
+    font: 14px sans-serif;
+}
+.bar {
+    fill: steelblue;
+}
+.container{
+    text-align: center;
+}
+.hover-item{
+    padding: 5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+
+}
